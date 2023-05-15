@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<playground requires-full-environment="false" target-platform="ios" version="6.0">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
     <pages>
-        <page name="Introdução"/>
-        <page name="Estruturas"/>
-        <page name="Tipos de Referência e por Valor"/>
-        <page name="Enumerações"/>
-        <page name="Enumerações e Valores Associados"/>
-        <page name="Tuplas"/>
-        <page name="Guard"/>
-        <page name="Try-Catch"/>
-        <page name="If-Let"/>
-        <page name="Operador de Nil-Coalescing"/>
-        <page name="Tipos Opcionais com ? e !"/>
-        <page name="Propriedades"/>
-        <page name="Métodos e Propriedades Estáticos"/>
-        <page name="Observers"/>
+        <page name='Introdução'/>
+        <page name='Estruturas'/>
+        <page name='Tipos de Referência e por Valor'/>
+        <page name='Enumerações'/>
+        <page name='Enumerações e Valores Associados'/>
+        <page name='Tuplas'/>
+        <page name='Guard'/>
+        <page name='Try-Catch'/>
+        <page name='If-Let'/>
+        <page name='Operador de Nil-Coalescing'/>
+        <page name='Tipos Opcionais com ? e !'/>
+        <page name='Propriedades'/>
+        <page name='Métodos e Propriedades Estáticos'/>
+        <page name='Observers'/>
     </pages>
 </playground>

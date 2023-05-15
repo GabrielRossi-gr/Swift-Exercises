@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<playground version="6.0" target-platform="ios" requires-full-environment="false">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
     <pages>
-        <page name="Introdução"/>
-        <page name="Classes e Objetos"/>
-        <page name="Inicializadores"/>
-        <page name="Deinicializadores"/>
-        <page name="Encapsulamento 1"/>
-        <page name="Encapsulamento 2"/>
-        <page name="Herança e Polimorfismo"/>
-        <page name="Sobrecarga"/>
-        <page name="Protocolos"/>
-        <page name="Exercício - Cálculo de Expressões Aritméticas"/>
-        <page name="Exercício - Lista de Compras"/>
+        <page name='Introdução'/>
+        <page name='Classes e Objetos'/>
+        <page name='Inicializadores'/>
+        <page name='Deinicializadores'/>
+        <page name='Encapsulamento 1'/>
+        <page name='Encapsulamento 2'/>
+        <page name='Herança e Polimorfismo'/>
+        <page name='Sobrecarga'/>
+        <page name='Protocolos'/>
+        <page name='Exercício - Cálculo de Expressões Aritméticas'/>
+        <page name='Exercício - Lista de Compras'/>
     </pages>
 </playground>

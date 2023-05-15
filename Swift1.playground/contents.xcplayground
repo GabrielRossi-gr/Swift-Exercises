@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<playground requires-full-environment="false" version="6.0" target-platform="ios">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
     <pages>
-        <page name="Introdução"/>
-        <page name="Valores, Constantes e Variáveis"/>
-        <page name="Interpolação de Strings"/>
-        <page name="Operadores"/>
-        <page name="Arrays e Dicionários"/>
-        <page name="Optionals"/>
-        <page name="Forced Unwrap"/>
-        <page name="Comandos de Condição 1"/>
-        <page name="Comandos de Condição 2"/>
-        <page name="Comandos de Condição 3"/>
-        <page name="Comandos de Loop 1"/>
-        <page name="Comandos de Loop 2"/>
-        <page name="Ranges"/>
-        <page name="Funções 1"/>
-        <page name="Funções 2"/>
-        <page name="Funções 3"/>
-        <page name="Exercício - Selection Sort"/>
-        <page name="Exercício - Cálculo de Expressões Aritméticas"/>
+        <page name='Introdução'/>
+        <page name='Valores, Constantes e Variáveis'/>
+        <page name='Interpolação de Strings'/>
+        <page name='Operadores'/>
+        <page name='Arrays e Dicionários'/>
+        <page name='Optionals'/>
+        <page name='Forced Unwrap'/>
+        <page name='Comandos de Condição 1'/>
+        <page name='Comandos de Condição 2'/>
+        <page name='Comandos de Condição 3'/>
+        <page name='Comandos de Loop 1'/>
+        <page name='Comandos de Loop 2'/>
+        <page name='Ranges'/>
+        <page name='Funções 1'/>
+        <page name='Funções 2'/>
+        <page name='Funções 3'/>
+        <page name='Exercício - Selection Sort'/>
+        <page name='Exercício - Cálculo de Expressões Aritméticas'/>
     </pages>
 </playground>

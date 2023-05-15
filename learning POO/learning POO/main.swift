@@ -22,3 +22,5 @@ let newEscravo = Trabalhador(nome: "renato russo", salario: 150, cargo: Cargos.p
 
 
 
+
+
