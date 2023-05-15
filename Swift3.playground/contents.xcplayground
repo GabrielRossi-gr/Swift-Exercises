@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playground requires-full-environment="false" target-platform="ios" version="6.0">
+    <pages>
+        <page name="Introdução"/>
+        <page name="Extensões de Classes"/>
+        <page name="Herança de Protocolos"/>
+        <page name="Extensões de Protocolos"/>
+        <page name="Generics"/>
+        <page name="Generics 2"/>
+        <page name="Optionals como Tipo Genérico"/>
+        <page name="Closures"/>
+        <page name="Closures 2"/>
+        <page name="Comandos de Desvio de Fluxo"/>
+        <page name="Statements Rotulados"/>
+    </pages>
+</playground>
