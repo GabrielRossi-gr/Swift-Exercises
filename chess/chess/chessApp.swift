@@ -12,8 +12,8 @@ struct chessApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                //ContentView()
-                GameView()
+                FirstView()
+                
             }
         }
     }
