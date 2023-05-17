@@ -69,3 +69,28 @@ let talking = Activity_.talking(topic: "football")
 
 ///                      Enum valores brutos
 
+//Às vezes, você precisa atribuir valores a enums para que tenham significado. Isso permite criá-los dinamicamente e também usá-los de maneiras diferentes.
+
+enum Planet: Int {
+    case mercury
+    case venus
+    case earth
+    case mars
+}
+
+
+//O Swift atribuirá automaticamente a cada um deles um número começando em 0, e você pode usar esse número para criar uma instância do caso enum apropriado. Por exemplo, earthserá dado o número 2, então você pode escrever isso:
+
+let earth = Planet(rawValue: 2)
+
+
+//Se desejar, você pode atribuir um ou mais casos a um valor específico e o Swift gerará o restante. Não é muito natural pensarmos na Terra como o segundo planeta, então você poderia escrever isto:
+
+enum Planet_: Int {
+    case mercury = 1
+    case venus
+    case earth
+    case mars
+}
+
+//Agora Swift atribuirá 1 mercurye contará para cima a partir daí, o que significa que earthagora é o terceiro planeta.

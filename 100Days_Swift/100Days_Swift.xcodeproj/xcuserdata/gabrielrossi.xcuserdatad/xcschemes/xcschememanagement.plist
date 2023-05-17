@@ -7,7 +7,7 @@
 		<key>100Days_Swift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Array (Playground) 1.xcscheme</key>
 		<dict>
@@ -28,7 +28,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Arrays vs Sets vs Tuples (Playground) 1.xcscheme</key>
 		<dict>
@@ -49,7 +49,28 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>6</integer>
+		</dict>
+		<key>Complex Types Resume (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Complex Types Resume (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>Complex Types Resume (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>Dictionaries (Playground) 1.xcscheme</key>
 		<dict>
@@ -70,7 +91,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Empty Collections (Playground) 1.xcscheme</key>
 		<dict>
@@ -91,7 +112,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Enum (Playground) 1.xcscheme</key>
 		<dict>
@@ -112,7 +133,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Matrizes (Playground) 1.xcscheme</key>
 		<dict>
@@ -154,7 +175,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Simple Types (Playground) 1.xcscheme</key>
 		<dict>
@@ -175,7 +196,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>0</integer>
 		</dict>
 		<key>String (Playground) 1.xcscheme</key>
 		<dict>
@@ -217,7 +238,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>8</integer>
 		</dict>
 	</dict>
 </dict>

@@ -16,6 +16,7 @@
 		489AE4B02A15028F00E76BB9 /* Empty Collections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Empty Collections.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		489AE4B12A1504B100E76BB9 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		489AE4B22A15100300E76BB9 /* Simple Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Simple Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		489AE4B32A15227800E76BB9 /* Complex Types Resume.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Complex Types Resume.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +33,7 @@
 		489AE48F2A14FB4100E76BB9 = {
 			isa = PBXGroup;
 			children = (
+				489AE4B32A15227800E76BB9 /* Complex Types Resume.playground */,
 				489AE4B12A1504B100E76BB9 /* Enum.playground */,
 				489AE4B02A15028F00E76BB9 /* Empty Collections.playground */,
 				489AE4AF2A14FF7C00E76BB9 /* Dictionaries.playground */,
