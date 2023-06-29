@@ -108,6 +108,7 @@ import UIKit
 // Se você tiver várias condições usando o mesmo valor, geralmente é mais fácil de usar switch.
 // Você pode fazer intervalos usando ..<e ...dependendo se o último número deve ser excluído ou incluído.
 //
+
 //
 // //operador ternario
 // let firstCard = 11

@@ -40,6 +40,7 @@ print("GAME OVER\n");
 printTabuleiro(tabuleiro)
 print("\n\n");
 
+
 func bot(){
     var rep = true;
     while(rep){

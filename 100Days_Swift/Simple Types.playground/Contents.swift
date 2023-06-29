@@ -11,3 +11,4 @@ import UIKit
 //A interpolação de strings permite que você crie strings a partir de outras variáveis ​​e constantes, colocando seus valores dentro de sua string.
 
 //O Swift usa inferência de tipo para atribuir um tipo a cada variável ou constante, mas você pode fornecer tipos explícitos, se desejar.
+
