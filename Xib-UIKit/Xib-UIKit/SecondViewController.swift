@@ -8,14 +8,32 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    @IBOutlet weak var labelTest: UILabel!
+    
+    @IBOutlet weak var buttonTest: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .cyan
+        labelTest.text = ":)  :/  :("
+        
+        buttonTest.backgroundColor = .purple
+        buttonTest.setTitle("sou um bottao", for: .normal)
+        
+        buttonTest.layer.cornerRadius = 10
+        
+        buttonTest.addTarget(self, action: #selector(touchButton), for: .touchUpInside)
     }
 
 
+    
+    
+    
+    @objc private func touchButton() {
+        let vc1 = ViewController()
+        self.navigationController?.pushViewController(vc1, animated: false)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

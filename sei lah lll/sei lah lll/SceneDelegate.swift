@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Xib-UIKit
+//  sei lah lll
 //
-//  Created by Gabriel Rossi on 29/06/23.
+//  Created by Gabriel Rossi on 30/06/23.
 //
 
 import UIKit
@@ -13,20 +13,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        
-        
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene: windowScene)
-        
-        //definir primeira view (view principal)
-        let vc = ViewController()
-        let nav = UINavigationController(rootViewController: vc)
-        window.rootViewController = nav
-        self.window = window
-        self.window?.makeKeyAndVisible()
-        
-        
-        
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        guard let _ = (scene as? UIWindowScene) else { return }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

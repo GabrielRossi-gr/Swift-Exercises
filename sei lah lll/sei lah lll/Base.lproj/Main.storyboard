@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sei_lah_lll" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZj-cY-OvT">
+                                <rect key="frame" x="8" y="67" width="377" height="743"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-LX-KN9">
+                                        <rect key="frame" x="68" y="50" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmo-KE-Lhn">
+                                        <rect key="frame" x="68" y="197" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstItem="mmo-KE-Lhn" firstAttribute="top" secondItem="Xsa-LX-KN9" secondAttribute="bottom" constant="19" id="55l-DQ-54N"/>
+                                    <constraint firstItem="mmo-KE-Lhn" firstAttribute="top" secondItem="Xsa-LX-KN9" secondAttribute="bottom" constant="19" id="A2U-KM-ELx"/>
+                                    <constraint firstAttribute="bottom" secondItem="mmo-KE-Lhn" secondAttribute="bottom" constant="418" id="ELn-Qm-vfZ"/>
+                                    <constraint firstItem="Xsa-LX-KN9" firstAttribute="leading" secondItem="lZj-cY-OvT" secondAttribute="leading" constant="68" id="GGN-xX-1u6"/>
+                                    <constraint firstItem="Xsa-LX-KN9" firstAttribute="width" secondItem="mmo-KE-Lhn" secondAttribute="height" multiplier="15:8" id="IOy-UK-l1d"/>
+                                    <constraint firstItem="mmo-KE-Lhn" firstAttribute="leading" secondItem="lZj-cY-OvT" secondAttribute="leading" constant="68" id="Lqj-sp-dAE"/>
+                                    <constraint firstItem="Xsa-LX-KN9" firstAttribute="top" secondItem="lZj-cY-OvT" secondAttribute="top" constant="50" id="Nmg-QM-lD9"/>
+                                    <constraint firstAttribute="trailing" secondItem="mmo-KE-Lhn" secondAttribute="trailing" constant="69" id="PQp-J8-iWY"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xsa-LX-KN9" secondAttribute="trailing" constant="69" id="Z9v-um-ebk"/>
+                                    <constraint firstItem="mmo-KE-Lhn" firstAttribute="height" secondItem="Xsa-LX-KN9" secondAttribute="height" id="fGS-4M-ivV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lZj-cY-OvT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="7NU-wi-XmD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lZj-cY-OvT" secondAttribute="bottom" constant="8" id="O9B-td-3ex"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lZj-cY-OvT" secondAttribute="trailing" constant="8" id="pot-yx-IM9"/>
+                            <constraint firstItem="lZj-cY-OvT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="xc0-XI-KJV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
