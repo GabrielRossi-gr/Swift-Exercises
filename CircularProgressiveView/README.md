@@ -1,2 +1,3 @@
+<img align="left" height="1570" width="944" src="https://media.discordapp.net/attachments/1108011588386045993/1149894649494909078/Captura_de_Tela_2023-09-08_as_23.30.10.png?" />
 
-<img align="left" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+
