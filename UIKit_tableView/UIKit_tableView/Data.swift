@@ -19,10 +19,3 @@ struct Data{
 }
 
 
-var comidas: [Data] = [
-    Data(comida: "banana", numero: 0),
-    Data(comida: "maçã", numero: 1),
-    Data(comida: "jaca", numero: 2),
-    Data(comida: "uva", numero: 3)
-]
-
