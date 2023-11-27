@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     
     @State var valueProgress: Float = 0.1
@@ -18,8 +19,9 @@ struct ContentView: View {
             
             
             
+            
             ///call circular progressive view
-            CircularProgressiveView(progressNumber: $valueProgress, title:$text1, subTitle:$text2)
+            CircularProgressiveView(progressNumber: valueProgress, title:text1, subTitle:text2)
                 .frame(width: 330)
             
             

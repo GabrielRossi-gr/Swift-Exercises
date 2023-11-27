@@ -9,11 +9,26 @@ import SwiftUI
 
 
 struct CircularProgressiveView: View {
-    
 
-    @Binding var progressNumber : Float //progress number
-    @Binding var title : String //"Title"
-    @Binding var subTitle : String //"Subtitle"
+    
+    var progressNumber : Float //progress number
+    var title : String //"Title"
+    var subTitle : String //"Subtitle"
+    
+    
+    
+    init(progressNumber: Float, title: String, subTitle: String) {
+        self.progressNumber = progressNumber
+        self.title = title
+        self.subTitle = subTitle
+    }
+    
+    init(progressNumber: Float, title: String) {
+        self.progressNumber = progressNumber
+        self.title = title
+        self.subTitle = ""
+    }
+    
     
     
     //circle config
@@ -35,13 +50,11 @@ struct CircularProgressiveView: View {
     @State var subtitleColor = Color(.black)
     
     
-    
     var body: some View {
                 
-        
         ZStack{
             
-
+            
             //background circle
             Circle()
                 .foregroundColor(.clear)
@@ -70,21 +83,20 @@ struct CircularProgressiveView: View {
                     .bold()
                     .foregroundColor(titleColor)
 //                    .frame(width: 300)
-
                 Text(subTitle)
                     .font(.system(size: subtitleSize))
                     .foregroundColor(subtitleColor)
 //                    .frame(width: 300)
             }
-            
-            
-            
         }
+        
     }
 }
 
+
+
 struct CircularProgressiveView_Previews: PreviewProvider {
     static var previews: some View {
-        CircularProgressiveView(progressNumber: .constant(Float(0.5)), title: .constant("Title"), subTitle: .constant("Subtitle"))
+        CircularProgressiveView(progressNumber: 0.5, title: "title", subTitle: "subtitle")
     }
 }
