@@ -9,12 +9,11 @@ import SwiftUI
 
 
 struct CircularProgressiveView: View {
-
+    
     
     var progressNumber : Float //progress number
     var title : String //"Title"
     var subTitle : String //"Subtitle"
-    
     
     
     init(progressNumber: Float, title: String, subTitle: String) {
@@ -33,9 +32,8 @@ struct CircularProgressiveView: View {
     
     //circle config
     @State var progressCircleColor = Color(.systemBlue)
-    @State var secondProgressCircleColor = Color(.darkGray)
-    @State var backgroundCircleColor = Color(.brown)
-    @State var opacity = 0.2
+    @State var secondProgressCircleColor = Color(.white)
+    @State var opacity = 0.8
     
     
     //size circle
@@ -49,15 +47,18 @@ struct CircularProgressiveView: View {
     @State var titleColor = Color(.systemBlue)
     @State var subtitleColor = Color(.black)
     
+    public func defCircleCollor(color: Color){
+        self.progressCircleColor = color
+    }
     
     var body: some View {
                 
         ZStack{
             
-            
             //background circle
             Circle()
                 .foregroundColor(.clear)
+            
 
             
             //second progress circle
@@ -66,6 +67,7 @@ struct CircularProgressiveView: View {
                 .foregroundColor(secondProgressCircleColor)
                 .opacity(opacity)
             
+                
             
             //progress circle
             Circle()
@@ -74,6 +76,7 @@ struct CircularProgressiveView: View {
                 .foregroundColor(progressCircleColor)
                 .rotationEffect(Angle(degrees: 270))
                 .animation(.easeInOut(duration: 1.0), value: 1)
+                
             
             
             //center texts
@@ -93,10 +96,13 @@ struct CircularProgressiveView: View {
     }
 }
 
+////stroke
+//Circle()
+//    .stroke(lineWidth: secondCircleLineWidth + 3.0)
+//    .foregroundColor(.black)
 
-
-struct CircularProgressiveView_Previews: PreviewProvider {
-    static var previews: some View {
-        CircularProgressiveView(progressNumber: 0.5, title: "title", subTitle: "subtitle")
-    }
+#Preview {
+    CircularProgressiveView(progressNumber: 0.5, title: "title", subTitle: "subtitle")
 }
+    
+
