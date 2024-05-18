@@ -28,6 +28,7 @@ struct ContentView: View {
             VStack {
                 
                 
+                
                 ///call circular progressive view
                 CircularProgressiveView(progressNumber: valueProgress, title:text1, subTitle:text2)
                     .frame(width: 330)
